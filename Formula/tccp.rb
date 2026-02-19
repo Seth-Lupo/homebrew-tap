@@ -1,20 +1,20 @@
 class Tccp < Formula
   desc "CLI for running code on HPC clusters"
   homepage "https://seth-lupo.github.io/tccp"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Seth-Lupo/tccp/releases/download/v0.3.4/tccp-macos-arm64"
-      sha256 "e638c8386f34f547dc6d14e832d25c384cde2468a9742283397c45c6fd63abaf"
+      url "https://github.com/Seth-Lupo/tccp/releases/download/v0.3.5/tccp-macos-arm64"
+      sha256 "12dfb278b5ef0b36b259a8ac0d60be1500b4f521dbf00f9042c92d4f825132a0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Seth-Lupo/tccp/releases/download/v0.3.4/tccp-linux-x64"
-      sha256 "aabfb5b25812fd6699a37605d151abe4e1b032536b74c8742e87d0dfbdc15887"
+      url "https://github.com/Seth-Lupo/tccp/releases/download/v0.3.5/tccp-linux-x64"
+      sha256 "959d48d88bdc3b748c07eda5117aa7b0a2cb90246350445045d59b7d9a2345ed"
     end
   end
 
